@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+body {
+    background-color: black;
+}
+
+#webTitle {
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: 100;
+    color: white;
+}
