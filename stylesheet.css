@@ -2,22 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     background-color: black;
 }
 
-.titleImage {
+#titleImage {
     position: relative;
     width: 100%;
-    height: 320px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/images/Fnaf_stageCam.png);
+    background-image: url(/images/fnafCast.gif);
     background-size: cover;
 }
 
-.titleImage::before {
+#titleImage::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -27,14 +29,20 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.pizzaPlace {
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+
 .webTitle1 {
     position: relative;
     opacity: 1;
     font-family: 'Inconsolata', monospace;
     font-weight: 30;
-    font-size: 40px;
-    color: red;
-    text-shadow: 0px 5px white;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 5px black;
     text-align: center;
 }
 
@@ -48,9 +56,12 @@ body {
 }
 
 .bottomText {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    font-family: 'Rubik Glitch';
+    font-weight: 100;
     font-size: 30px;
     color: red;
+    text-shadow: 0px 2px black;
     text-align: center;
     opacity: 1;
 }
