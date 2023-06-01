@@ -68,9 +68,19 @@ body {
 
 #info {
     position: absolute;
+    font-family: 'Inconsolata';
     left: 50px;
     color: white;
-    font-size: 12px;
+    font-size: 28px;
+}
+
+#info img {
+    float: left;
+}
+
+.leftText {
+    float: left;
+    padding-left: 20px;
 }
 
 /*Styling Links in sideNav*/
@@ -123,4 +133,44 @@ body {
     top: 410px;
     background-color: black;
     border: 1px solid white;
+}
+
+#aboutLink-button {
+    transition: 2s;
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Inconsolata';
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    text-shadow: 0px 2px blue;
+    text-align: center;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#aboutLink-button:hover {
+    background-color: white;
+    border: 2px solid purple;
+    color: black;
+}
+
+#footer {
+    color: gray;
+    font-family: 'Inconsolata';
+    font-size: 10px;
+    text-align: center;
+}
+
+#footer img {
+    width: 50px;
+}
+
+#fredbear { 
+    cursor: pointer;
+    position: absolute;
+    top: 30px; 
+    left: 180px; 
+    transition: all 0.2s;
 }
