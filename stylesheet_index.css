@@ -72,7 +72,7 @@ body {
 
 .bottomText {
     position: relative;
-    font-family: 'Rubik Glitch';
+    font-family: 'Inconsolata';
     font-weight: 100;
     font-size: 30px;
     color: red;
@@ -82,7 +82,6 @@ body {
 }
 
 #info {
-    position: absolute;
     position: relative;
     padding-left: 20px;
     font-family: 'Inconsolata';
