@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.webTitle1 {
+    position: relative;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 30;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 5px black;
+    text-align: center;
+}
+
+.webTitle2 {
+    position: absolute;
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    z-index: 1;
+    opacity: 1;
+    text-decoration: none;
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: 100;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0px 5px red;
+    text-align: left;
+}
+
+#sideNav a {
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    left: -80px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-family: 'Rubik Glitch';
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 1px blue;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+}
+
+#sideNav a:hover {
+    left: 0;
+}
+  
+#homeLink {
+    top: 130px;
+    background-color: black;
+    border: 1px solid white;
+}
+  
+#aboutLink {
+    top: 200px;
+    background-color: black;
+    border: 1px solid white;
+}
+  
+#charLink {
+    top: 270px;
+    background-color: black;
+    border: 1px solid white;
+}
+  
+#reviewLink {
+    top: 340px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#gameLink {
+    top: 410px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#titleImage {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/Fnaf_stageCam.png);
+    background-size: cover;
+}
+
+#titleImage::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.theTitle {
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: 100;
+    font-size: 55px;
+    text-shadow: 0px 5px red;
+}
+
+#textContainer {
+    position: relative;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.horrorText {
+    color: red;
+}
+
+#gameLink-button {
+    transition: 2s;
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 2px blue;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#gameLink-button:hover {
+    background-color: white;
+    border: 2px solid purple;
+    text-shadow: none;
+    color: black;
+}
+
+#footer {
+    position: relative;
+    bottom: 0px;
+    color: gray;
+    font-family: 'Inconsolata';
+    font-size: 10px;
+    text-align: center;
+}
+
+#fredbear { 
+    cursor: pointer;
+    position: absolute;
+    top: 30px; 
+    left: 180px; 
+    z-index: 2;
+    transition: all 0.1s;
+}
