@@ -93,16 +93,19 @@ body {
     border: 1px solid white;
 }
 
+/*Styling the review*/
 #reviews {
     color: white;
     font-family: 'Inconsolata';
     padding: 50px;
 }
 
+/*Styling the user*/
 .user {
     color: red;
 }
 
+/*Styling the rating*/
 .rating {
     color: yellow;
 }

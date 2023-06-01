@@ -1,3 +1,4 @@
+//Frebear's code :D
 var object = document.getElementById('fredbear');
 
 object.onclick=function(){

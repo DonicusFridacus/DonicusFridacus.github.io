@@ -112,6 +112,7 @@ body {
     display: table;
 }
 
+/*Styling the info of characters*/
 #info-Freddy {
     position: relative;
     display: flex;
